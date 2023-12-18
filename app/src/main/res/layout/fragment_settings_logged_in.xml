@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <ImageView
+        android:id="@+id/image_user"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background=""
+        android:tint="@color/lightGray" />
+
+    <TextView
+        android:id="@+id/txt_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/image_user"
+        android:text="Valkyrie 17"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/image_user"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightGray" />
+
+    <ImageView
+        android:id="@+id/image_account"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/separator1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="20dp"
+        android:tint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txt_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator1"
+        android:layout_toEndOf="@id/image_account"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Account"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/image_account"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightGray" />
+
+    <ImageView
+        android:id="@+id/image_logout"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/separator2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="20dp"
+        android:tint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator2"
+        android:layout_toEndOf="@id/image_logout"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Logout"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/separator3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/image_logout"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightGray" />
+
+    <ImageView
+        android:id="@+id/image_about"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/separator3"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="20dp"
+        android:tint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txt_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator3"
+        android:layout_toEndOf="@id/image_logout"
+        android:fontFamily="sans-serif-condensed"
+        android:text="About"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/separator4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/image_about"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightGray" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_fragment_settings_logged_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

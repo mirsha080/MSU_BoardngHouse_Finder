@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="14dp"
+    android:layout_marginBottom="6dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_card_border">
+
+        <ImageView
+            android:id="@+id/boarding_house_image"
+            android:layout_margin="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/ico_background" />
+
+        <TextView
+            android:id="@+id/text_cardview_bh_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/boarding_house_image"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Boarding House name"
+            android:textColor="@android:color/black"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/text_cardview_bh_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cardview_bh_name"
+            android:layout_marginLeft="8dp"
+            android:drawableLeft="@drawable/ixo_location"
+            android:text="Address"
+            android:textColor="@android:color/darker_gray" />
+
+        <RatingBar
+            android:id="@+id/ratingbar_cardview_bh_rating"
+            style="@android:style/Widget.Material.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/text_cardview_bh_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="8dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="0.1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cardview_bh_location"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/custom_button_border">
+
+            <Button
+                android:id="@+id/btnViewBHDetails"
+                style="@style/Widget.iStay.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Details"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

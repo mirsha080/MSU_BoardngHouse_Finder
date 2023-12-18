@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_manager"
+            android:icon="@drawable/ico_manager"
+            android:title="Managers" />
+
+        <item
+            android:id="@+id/nav_boarding_house"
+            android:icon="@drawable/ico_home"
+            android:title="Boarding Houses" />
+
+    </group>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/add_new_manager"
+                android:icon="@drawable/ixo_add_manager"
+                android:title="Add new Manager" />
+        </menu>
+
+
+    </item>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ico_sign_out"
+                android:title="Logout" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

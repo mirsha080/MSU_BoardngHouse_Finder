@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "290181158963",
+    "firebase_url": "https://istay-msu-bh-finder.firebaseio.com",
+    "project_id": "istay-msu-bh-finder",
+    "storage_bucket": "istay-msu-bh-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290181158963:android:2850743f385c006d",
+        "android_client_info": {
+          "package_name": "android.valkyrie.com.istay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290181158963-dbr2a205vmb5tqhqs3iujnck5rfr17jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO1Zx4iHWq1KTlvq6YGkkhR3I6MWH4bJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
